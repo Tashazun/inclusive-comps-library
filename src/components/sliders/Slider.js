@@ -2,8 +2,8 @@ import React from "react";
 
 import "./Slider.scss";
 
-const Slider = ({ text, style }) => {
-return
+const Slider = () => {
+return (
   <div>
     <label>Slider</label>
     <input
@@ -14,7 +14,8 @@ return
       step="1"
       aria-label="Slider Count"
       aria-valuetext="value: 1" />
-  </div>;
+  </div>
+  )
 }
 
 export default Slider
