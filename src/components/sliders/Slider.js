@@ -4,9 +4,10 @@ import "./Slider.scss";
 
 const Slider = () => {
 return (
-  <div>
-    <label>Slider</label>
+  <div className="slider">
+    <label className="slider__label">Slider</label>
     <input
+      className="slider__input"
       type="range"
       min="1"
       max="4"
