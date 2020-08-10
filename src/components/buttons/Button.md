@@ -3,6 +3,6 @@ A very simple button.
 import Button from "./Button";
 <div>                                       
 <Button text="Primary" style="primary" />
-<Button text="Secondary" style="secondary"/>
+<Button text="Secondary" style="primary" disabled="true"/>
 </div>
 ```
